@@ -2,7 +2,13 @@
 
 ## How to run the app?
 
-Well, this project contains all for running, well... except the browser, that up to you. So download the project and open `index.html` in a browser and start to play!!
+Download or clone the repository from Github:
+
+```
+git clone https://github.com/mariytu/ArcadeGame.git
+```
+
+Well, no you are ready!! baa!! obvious, you need a browser... that up to you.. So, choose your preferred browser and open `index.html` in a browser and start to play!!
 
 ## About the game
 
