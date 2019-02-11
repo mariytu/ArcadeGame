@@ -1,3 +1,97 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
 body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ffffff url('../images/background.png'); /* Background pattern from Subtle Patterns */
+    font-family: 'Coda', cursive;
     text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+/*
+ * Styles for the Score Panel
+ */
+
+.score-panel {
+    text-align: left;
+    width: 400px;
+    margin-bottom: 10px;
+	display: inherit;
+}
+
+.score-panel .stars {
+    padding: 0;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+.score-panel .stars li {
+    list-style: none;
+    display: inline-block;
+}
+
+.score-panel .restart {
+    padding: 0 80px;
+    cursor: pointer;
+}
+
+.score-panel p {
+	margin: 0;
+}
+
+.score-panel .stars,
+.score-panel .moves,
+.score-panel p,
+.score-panel .restart {
+	position: relative;
+    bottom: -15px;
+}
+
+/*
+ * WIDGET
+ */
+
+.widget {
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: fit-content;
+  margin-left: 190px;
+}
+
+.widget h2 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.navy-bg, .bg-primary {
+    background-color: #1ab394;
+    color: #ffffff;
 }
